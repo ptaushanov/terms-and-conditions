@@ -20,14 +20,8 @@ function App() {
 
   return (
     <div className="App">
-      <section class="hero">
-        <div class="hero-body">
-          <p class="title">A React Task</p>
-          <p class="subtitle">by Boom.dev</p>
-        </div>
-      </section>
       <div class="container is-fullhd">
-        <Document title={"Terms and Conditions"} content={terms} />
+          <Document title={"Terms and Conditions"} content={terms} />
       </div>
     </div>
   );
