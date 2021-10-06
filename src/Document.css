@@ -1,5 +1,5 @@
 p {
-    overflow-y:scroll;
+    overflow: auto;
     width: 30rem;
     height: 30rem;
 }
