@@ -7,9 +7,9 @@ function App() {
 
   useEffect(()=>{
     fetch("https://jaspervdj.be/lorem-markdownum/markdown.txt")
-    .then(res => {
-      if(res.status === 200){
-        return res.text();
+    .then(response => {
+      if(response.status === 200){
+        return response.text();
       }
       throw new Error("Failed to fetch resource!")
     })
