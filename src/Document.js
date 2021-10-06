@@ -1,4 +1,5 @@
 import { useState } from "react";
+import "./Document.css"
 
 const Document = ({title, content}) => {
     const [wasRead, setWasRead] = useState(false)
